@@ -1,0 +1,332 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #555;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+h1,
+h2 {
+    color: #222;
+    font-weight: 900;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.konteyner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.icerik-merkezi {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    z-index: 5;
+}
+
+.ana-baslik-alani {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.logo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 100px;
+}
+
+.ana-baslik-alani h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.ana-baslik-alani p {
+    font-size: 18px;
+    max-width: 450px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buton-grubu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.buton {
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.buton-mavi {
+    background-color: #49A9AF;
+}
+
+.buton-mor {
+    background-color: #885FFF;
+}
+
+.profil-resmi {
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.profil-1 {
+    top: 100px;
+    left: 15%;
+    width: 60px;
+    height: 60px;
+}
+
+.profil-2 {
+    top: 180px;
+    left: 25%;
+    width: 70px;
+    height: 70px;
+}
+
+.profil-3 {
+    top: 280px;
+    left: 20%;
+    width: 80px;
+    height: 80px;
+}
+
+.profil-4 {
+    top: 380px;
+    left: 12%;
+    width: 50px;
+    height: 50px;
+}
+
+.profil-5 {
+    top: 340px;
+    left: 30%;
+    width: 60px;
+    height: 60px;
+}
+
+.profil-6 {
+    top: 100px;
+    right: 15%;
+    width: 60px;
+    height: 60px;
+}
+
+.profil-7 {
+    top: 180px;
+    right: 25%;
+    width: 80px;
+    height: 80px;
+}
+
+.profil-8 {
+    top: 280px;
+    right: 20%;
+    width: 50px;
+    height: 50px;
+}
+
+.profil-9 {
+    top: 380px;
+    right: 12%;
+    width: 70px;
+    height: 70px;
+}
+
+.profil-10 {
+    top: 340px;
+    right: 30%;
+    width: 60px;
+    height: 60px;
+}
+
+.profil-11 {
+    top: 430px;
+    right: 22%;
+    width: 60px;
+    height: 60px;
+}
+
+.ayirici-cizgi-konteyner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0;
+    position: relative;
+}
+
+.cizgi {
+    width: 1px;
+    height: 80px;
+    background-color: #ddd;
+}
+
+.numara {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-weight: bold;
+    margin-top: -20px;
+    background-color: white;
+    position: relative;
+    z-index: 20;
+}
+
+.ozellikler-bolumu {
+    padding-bottom: 60px;
+}
+
+.resim-galerisi {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+    padding: 0 20px;
+}
+
+.resim-galerisi img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    aspect-ratio: 4 / 3;
+}
+
+.ust-baslik {
+    color: #49A9AF;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.ozellikler-bolumu h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.ozellikler-bolumu p {
+    font-size: 16px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kapanis-bolumu {
+    background-color: #49A9AF;
+    color: white;
+    padding: 100px 0 80px 0;
+    margin-top: -40px;
+    position: relative;
+    z-index: 10;
+}
+
+.kapanis-icerik {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.kapanis-sol h2 {
+    color: white;
+    font-size: 36px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.kapanis-sag {
+    text-align: left;
+    max-width: 350px;
+}
+
+.kapanis-sag p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+.buton-mor-koyu {
+    background-color: #6F42C1;
+}
+
+@media (max-width: 900px) {
+    .profil-resmi {
+        display: none;
+    }
+
+    .ana-baslik-alani h1 {
+        font-size: 36px;
+    }
+
+    .ozellikler-bolumu h2,
+    .kapanis-sol h2 {
+        font-size: 28px;
+    }
+
+    .resim-galerisi {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .kapanis-icerik {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .kapanis-sag {
+        text-align: center;
+    }
+
+    .kapanis-sag p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .resim-galerisi {
+        grid-template-columns: 1fr;
+    }
+}
